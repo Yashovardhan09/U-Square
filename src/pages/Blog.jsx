@@ -38,8 +38,8 @@ const Blog = () => {
             Becoming a Full Stack Developer and Securing a Job in Hyderabad: A Step-by-Step Guide
           </Link>
           <div className='flex items-center text-gray-400 text-sm my-2'>
-            <span className='material-icons mr-2'>access_time</span> Fri Jan 20, 2023
-            <span className='material-icons mx-4'>face</span> U-Square Academy
+            {/* <span className='material-icons mr-2'>access_time</span> Fri Jan 20, 2023
+            <span className='material-icons mx-4'>face</span> U-Square Academy */}
           </div>
           <p className='text-gray-300'>
             Becoming a full-stack developer and landing a job in Bangalore can be a challenging but rewarding process. Here are some steps you can take to increase your chances of success...
@@ -62,8 +62,8 @@ const Blog = () => {
             Salesforce Careers: Opportunities and Growth
           </Link>
           <div className='flex items-center text-gray-400 text-sm my-2'>
-            <span className='material-icons mr-2'>access_time</span> Mon Feb 20, 2023
-            <span className='material-icons mx-4'>face</span> Salesforce India
+            {/* <span className='material-icons mr-2'>access_time</span> Mon Feb 20, 2023
+            <span className='material-icons mx-4'>face</span> Salesforce India */}
           </div>
           <p className='text-gray-300'>
             Salesforce careers are in high demand due to the platform's extensive use in various industries. Here's how to begin your Salesforce career journey...

@@ -5,21 +5,23 @@ const FullStackCourses = () => {
     <>
       <div className="flex flex-col lg:flex-row bg-black px-5 py-16">
   {/* Left Side: Content */}
-  <div className="lg:w-1/2 p-8">
-    <h1 className="text-4xl font-bold mb-4 text-gradient bg-clip-text text-transparent bg-gradient-to-r from-white via-gray-500 to-gray-500 mt-7">
+  <div className="flex flex-col lg:flex-row w-full">
+  {/* Left Side: Content */}
+  <div className="w-full lg:w-1/2 p-4 lg:p-8">
+    <h1 className="text-3xl lg:text-4xl font-bold mb-4 text-gradient bg-clip-text text-transparent bg-gradient-to-r from-white via-gray-500 to-gray-500 mt-4 lg:mt-7">
       JOB-ORIENTED TRAINING PROGRAM
     </h1>
-    <h2 className="text-3xl font-bold mb-4 text-gradient bg-clip-text text-transparent bg-gradient-to-r from-white via-gray-500 to-gray-500">
+    <h2 className="text-2xl lg:text-3xl font-bold mb-4 text-gradient bg-clip-text text-transparent bg-gradient-to-r from-white via-gray-500 to-gray-500">
       Full-Stack Web Development using MERN Stack & Salesforce Cloud Technologies
     </h2>
-    <p className="text-lg text-gray-300 mt-5 transition-transform transform hover:scale-105">
-      The MERN Stack course is designed to help you become an expert in using MongoDB, Express, React, and Node.js. The course covers front and back-end development using JavaScript, HTML, CSS, and Node.js. You will learn how to build user interfaces for the web and how to connect them to back-end APIs using the MERN stack. By the end of the course, you will have a solid understanding of these technologies and the ability to use them to create web applications.<br/>Enhance your skills with our comprehensive training in Salesforce Marketing Cloud (SFMC) and Salesforce (SFDC). Learn to master advanced marketing automation and customer engagement strategies with SFMC, while gaining a deep understanding of CRM tools and sales process management with SFDC. Equip yourself with the expertise to drive results and boost business growth
+    <p className="text-base lg:text-lg text-gray-300 mt-3 lg:mt-5 transition-transform transform hover:scale-105">
+      The MERN Stack course is designed to help you become an expert in using MongoDB, Express, React, and Node.js. The course covers front and back-end development using JavaScript, HTML, CSS, and Node.js. You will learn how to build user interfaces for the web and how to connect them to back-end APIs using the MERN stack. By the end of the course, you will have a solid understanding of these technologies and the ability to use them to create web applications.<br/>Enhance your skills with our comprehensive training in Salesforce Marketing Cloud (SFMC) and Salesforce (SFDC). Learn to master advanced marketing automation and customer engagement strategies with SFMC, while gaining a deep understanding of CRM tools and sales process management with SFDC. Equip yourself with the expertise to drive results and boost business growth.
     </p>
   </div>
 
   {/* Right Side: Glass Effect Image */}
-  <div className="lg:w-1/2 p-8 flex flex-col justify-center items-center">
-    <div className="relative p-4 rounded-3xl shadow-xl transition-transform transform hover:scale-105 bg-black bg-opacity-50 backdrop-blur-lg">
+  <div className="w-full lg:w-1/2 p-4 lg:p-8 flex justify-center items-center">
+    <div className="relative p-4 rounded-3xl shadow-xl transition-transform transform hover:scale-105 bg-black bg-opacity-50 backdrop-blur-lg w-full">
       <img
         src={home}
         alt="Course Image"
@@ -30,9 +32,11 @@ const FullStackCourses = () => {
   </div>
 </div>
 
+</div>
+
 <div className="flex flex-col lg:flex-row bg-gradient-to-br bg-black px-5 py-16">
   {/* Left Side: YouTube Video */}
-  <div className="lg:w-1/2 p-8 flex justify-center items-center">
+  <div className="w-full order-1 sm:order-2  lg:w-1/2 p-8 flex justify-center items-center">
     <iframe
       width="560"
       height="315"
@@ -47,11 +51,11 @@ const FullStackCourses = () => {
   </div>
 
   {/* Right Side: Module Details */}
-  <div className="lg:w-1/2 p-8">
+  <div className="w-full lg:w-1/2 p-8">
     <h1 className="text-4xl lg:text-5xl font-extrabold mb-4 text-gradient bg-clip-text text-transparent bg-gradient-to-r from-gray-400 via-gray-950 to-gray-900">
       Module 1
     </h1>
-    <h2 className="text-3xl lg:text-4xl font-semibold mb-2 text-white ">
+    <h2 className="text-3xl lg:text-4xl font-semibold mb-2 text-white">
       Marketing Cloud
     </h2>
     <div className="w-1/2 border-b-4 border-gradient-to-r from-green-400 to-purple-600 mb-6"></div>
@@ -63,8 +67,8 @@ const FullStackCourses = () => {
 
 <div className="flex flex-col lg:flex-row bg-gradient-to-br bg-black px-5 py-16">
   {/* Left Side: Module Details */}
-  <div className="lg:w-1/2 p-8">
-    <h1 className="text-4xl lg:text-5xl font-extrabold mb-4 text-gradient bg-clip-text text-transparent text-gradient bg-clip-text text-transparent bg-gradient-to-r from-gray-400 via-gray-950 to-gray-900">
+  <div className="w-full lg:w-1/2 p-8">
+    <h1 className="text-4xl lg:text-5xl font-extrabold mb-4 text-gradient bg-clip-text text-transparent bg-gradient-to-r from-gray-400 via-gray-950 to-gray-900">
       Module 2
     </h1>
     <h2 className="text-3xl lg:text-4xl font-semibold mb-2 text-gray-300">
@@ -77,7 +81,7 @@ const FullStackCourses = () => {
   </div>
 
   {/* Right Side: YouTube Video */}
-  <div className="lg:w-1/2 p-8 flex justify-center items-center">
+  <div className="w-full lg:w-1/2 order-1 p-8 flex justify-center items-center">
     <iframe
       width="560"
       height="315"
@@ -94,7 +98,7 @@ const FullStackCourses = () => {
 
 <div className="flex flex-col lg:flex-row bg-black px-5 py-16">
   {/* Left Side: YouTube Video */}
-  <div className="lg:w-1/2 p-8 flex justify-center items-center">
+  <div className="w-full lg:w-1/2 order-1 p-8 flex justify-center items-center">
     <iframe
       width="560"
       height="315"
@@ -109,8 +113,8 @@ const FullStackCourses = () => {
   </div>
 
   {/* Right Side: Module Details */}
-  <div className="lg:w-1/2 p-8">
-    <h1 className="text-4xl lg:text-5xl font-extrabold mb-4 text-gradient bg-clip-text text-transparenttext-gradient bg-clip-text text-transparent bg-gradient-to-r from-gray-400 via-gray-950 to-gray-900">
+  <div className="w-full lg:w-1/2 p-8">
+    <h1 className="text-4xl lg:text-5xl font-extrabold mb-4 text-gradient bg-clip-text text-transparent bg-gradient-to-r from-gray-400 via-gray-950 to-gray-900">
       Module 3
     </h1>
     <h2 className="text-3xl lg:text-4xl font-semibold mb-2 text-gray-200">
@@ -125,8 +129,8 @@ const FullStackCourses = () => {
 
 <div className="flex flex-col lg:flex-row bg-black px-5 py-16">
   {/* Left Side: Module Details */}
-  <div className="lg:w-1/2 p-8">
-    <h1 className="text-4xl lg:text-5xl font-extrabold mb-4 text-gradient bg-clip-text text-transparent text-gradient bg-clip-text text-transparent bg-gradient-to-r from-gray-400 via-gray-950 to-gray-900">
+  <div className="w-full lg:w-1/2 p-8">
+    <h1 className="text-4xl lg:text-5xl font-extrabold mb-4 text-gradient bg-clip-text text-transparent bg-gradient-to-r from-gray-400 via-gray-950 to-gray-900">
       Module 4
     </h1>
     <h2 className="text-3xl lg:text-4xl font-semibold mb-2 text-gray-200">
@@ -139,13 +143,13 @@ const FullStackCourses = () => {
   </div>
 
   {/* Right Side: YouTube Video */}
-  <div className="lg:w-1/2 p-8 flex justify-center items-center">
+  <div className="w-full lg:w-1/2 p-8 flex justify-center items-center">
     <iframe
       width="560"
       height="315"
       src="https://www.youtube.com/embed/videoseries?si=lnbymVCY0DSGm1Zy&amp;list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW"
       title="YouTube video player"
-      
+      frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       referrerPolicy="strict-origin-when-cross-origin"
       allowFullScreen
@@ -156,7 +160,7 @@ const FullStackCourses = () => {
 
 <div className="flex flex-col lg:flex-row bg-black px-5 py-16">
   {/* Left Side: YouTube Video */}
-  <div className="lg:w-1/2 p-8 flex justify-center items-center">
+  <div className="w-full order-1 lg:w-1/2 p-8 flex justify-center items-center">
     <iframe
       width="560"
       height="315"
@@ -171,19 +175,20 @@ const FullStackCourses = () => {
   </div>
 
   {/* Right Side: Module Details */}
-  <div className="lg:w-1/2 p-8">
-    <h1 className="text-4xl lg:text-5xl font-extrabold mb-4 text-gradient bg-clip-text text-transparent text-gradient bg-clip-text text-transparent bg-gradient-to-r from-gray-400 via-gray-950 to-gray-900">
+  <div className="w-full lg:w-1/2 p-8">
+    <h1 className="text-4xl lg:text-5xl font-extrabold mb-4 text-gradient bg-clip-text text-transparent bg-gradient-to-r from-gray-400 via-gray-950 to-gray-900">
       Module 5
     </h1>
-    <h2 className="text-3xl lg:text-4xl font-medium mb-2 text-gray-200">
-      Placement Training 2
+    <h2 className="text-3xl lg:text-4xl font-semibold mb-2 text-gray-200">
+      Career Guidance
     </h2>
-    <div className="w-1/2 border-b-4 border-gradient-to-r from-teal-400 to-amber-500 mb-6"></div>
+    <div className="w-1/2 border-b-4 border-gradient-to-r from-amber-400 to-pink-500 mb-6"></div>
     <p className="text-lg text-gray-300">
-      This module is designed to help you feel confident and prepared for technical interviews with companies. You will practice taking technical aptitude tests, participate in a mock interview, and work through recently asked interview questions. You will also have the opportunity to create a powerful and effective resume. By the end of this module, you will have the skills and knowledge needed to succeed in the job interview process.
+      This module will guide you through the fundamentals of business and leadership, preparing you for a managerial role. You will learn how to manage teams, develop strategies, and implement best practices to achieve organizational goals.
     </p>
   </div>
 </div>
+
 
 <div className="flex flex-col lg:flex-row bg-black px-5 py-16">
   {/* Left Side: Trainer Image */}
