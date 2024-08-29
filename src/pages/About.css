@@ -1,0 +1,27 @@
+@keyframes scrollLeftRight {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .scroll-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  
+  .scroll-content {
+    display: flex;
+    animation: scrollLeftRight 20s linear infinite;
+    width: 200%; /* Double the width to accommodate the duplicated content */
+  }
+  
+  .card {
+    flex: 0 0 auto; /* Prevent cards from shrinking */
+    min-width: 25%; /* Adjust based on your card width */
+    margin-right: 2rem; /* Add spacing between cards */
+  }
+  
