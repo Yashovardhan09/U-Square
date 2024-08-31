@@ -111,7 +111,7 @@ const Navbar = () => {
               About
             </Link>
             <Link to="/full-stack-course" className="block text-center hover:text-green-900" onClick={closeMobileMenu}>
-              Full Stack Courses
+              View Courses
             </Link>
             <Link to="/placements" className="block text-center hover:text-green-900" onClick={closeMobileMenu}>
               Placements

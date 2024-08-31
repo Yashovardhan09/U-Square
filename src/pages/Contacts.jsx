@@ -1,6 +1,21 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 
 const Contacts = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_2dkgfbu', 'template_vv7nqlj', e.target, 'Kc-LSPXPL2gux6azo')
+      .then((result) => {
+        console.log('Success:', result.text);
+        alert('Your message has been sent successfully!');
+      })
+      .catch((error) => {
+        console.log('Error:', error.text);
+        alert('Failed to send message. Please try again later.');
+      });
+  };
+
   return (
     <div className="min-h-screen bg-black flex flex-col justify-center items-center px-5 py-16 mt-10">
       <div className="w-full max-w-lg bg-black border border-gray-600 p-8 rounded-3xl shadow-lg">
@@ -10,7 +25,7 @@ const Contacts = () => {
         <p className="text-lg text-center mb-8 text-gray-300">
           Please fill the form below to reach us
         </p>
-        <form className="space-y-6">
+        <form className="space-y-6" onSubmit={handleSubmit}>
           <div className="grid grid-cols-1 gap-6">
             <div>
               <label htmlFor="name" className="block text-lg font-medium mb-2 text-gray-200">Name</label>
