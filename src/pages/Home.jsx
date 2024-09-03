@@ -133,7 +133,7 @@ const Home = () => {
       <div className="bg-black backdrop-blur-lg py-12 flex flex-col items-center text-center dark:bg-gray-800">
         <div className="inline-block border-t border-white/20 border-opacity-30 pt-4 px-4">
           <h2 className="text-4xl font-bold mb-6 text-white shadow-transparent">
-            U-SQUARE-ACADEMY
+          U Square Academy
           </h2>
         </div>
         <p className="text-lg mb-2 text-white">

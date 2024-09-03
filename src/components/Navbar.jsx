@@ -55,7 +55,7 @@ const Navbar = () => {
             </button>
           </div>
           {/* Desktop Menu */}
-          <div className="hidden md:flex text-xl space-x-4 items-center">
+          <div className="hidden md:flex text-lg space-x-4 items-center">
             <Link to="/free-courses" className="hover:text-green-900">
               Free Courses
             </Link>
@@ -72,7 +72,7 @@ const Navbar = () => {
               Placements
             </Link>
             <Link to="/contacts" className="hover:text-green-900">
-              Contacts
+              Contact
             </Link>
 
             {/* Course-Details Dropdown */}
@@ -117,7 +117,7 @@ const Navbar = () => {
               Placements
             </Link>
             <Link to="/contacts" className="block text-center hover:text-green-900" onClick={closeMobileMenu}>
-              Contacts
+              Contact
             </Link>
             
             {/* Course-Details Dropdown in Mobile */}

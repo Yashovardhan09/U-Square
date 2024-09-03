@@ -56,7 +56,7 @@ const About = () => {
           transition={{ duration: 0.8 }}
           className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-6 bg-clip-text text-transparent text-white"
         >
-          Meet U-Square Academy
+          Meet U Square Academy
         </motion.h1>
         <h3 className='text-white text-center mt-2 text-xl mb-3 font-bold'>4-Month Comprehensive Data Cloud, Marketing Cloud and Javascript Cohort</h3>
         <p className="text-base sm:text-lg lg:text-2xl text-left max-w-4xl mx-auto font-light leading-relaxed text-gray-300">
@@ -104,9 +104,9 @@ const About = () => {
             style={cardStyle}
             className="card flex flex-col items-center text-left"
           >
-            <svg className="mb-6 text-white" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5M12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0M1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25M14.25 14h-5.5a.25.25 0 0 1 0-.5h5.5a.25.25 0 0 1 0 .5"/>
-            </svg>
+           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-paper-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M6.5 9.5 3 7.5v-6A1.5 1.5 0 0 1 4.5 0h7A1.5 1.5 0 0 1 13 1.5v6l-3.5 2L8 8.75zM1.059 3.635 2 3.133v3.753L0 5.713V5.4a2 2 0 0 1 1.059-1.765M16 5.713l-2 1.173V3.133l.941.502A2 2 0 0 1 16 5.4zm0 1.16-5.693 3.337L16 13.372v-6.5Zm-8 3.199 7.941 4.412A2 2 0 0 1 14 16H2a2 2 0 0 1-1.941-1.516zm-8 3.3 5.693-3.162L0 6.873v6.5Z"/>
+</svg>
             <h3 className="text-xl mt-6 sm:text-2xl lg:text-3xl font-semibold mb-2">Job Assistance</h3>
             <p className="text-sm sm:text-base lg:text-lg">Receive dedicated support for job placement and career growth.</p>
           </div>
@@ -116,15 +116,10 @@ const About = () => {
             style={cardStyle}
             className="card flex flex-col items-center text-left"
           >
-            <svg className="mb-6 text-white" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M10.354 5.646a.5.5 0 0 0-.708 0L7 7.793 6.354 7.146a.5.5 0 0 0-.708.708L7.293 9l-1.647 1.646a.5.5 0 0 0 .708.708L7 9.707l1.646 1.646a.5.5 0 0 0 .708-.708L8.707 9l1.646-1.646a.5.5 0 0 0 0-.708z"/>
-              <path d="M8.5 0a.5.5 0 0 0-.5.5v6a.5.5 0 0 0 1 0V1a.5.5 0 0 0-.5-.5z"/>
-              <path d="M8 16a.5.5 0 0 0 .5-.5V9a.5.5 0 0 0-1 0v6.5a.5.5 0 0 0 .5.5z"/>
-              <path d="M2.5 16a.5.5 0 0 0 .5-.5V9a.5.5 0 0 0-1 0v6.5a.5.5 0 0 0 .5.5z"/>
-              <path d="M2 8.5a.5.5 0 0 0 .5-.5v-6A.5.5 0 0 0 2 1.5a.5.5 0 0 0-.5.5v6a.5.5 0 0 0 .5.5zM5 0a.5.5 0 0 0-.5.5V4a.5.5 0 0 0 1 0V.5A.5.5 0 0 0 5 0z"/>
-              <path d="M5 16a.5.5 0 0 0 .5-.5V12a.5.5 0 0 0-1 0v3.5a.5.5 0 0 0 .5.5z"/>
-              <path d="M13.5 16a.5.5 0 0 0 .5-.5V9a.5.5 0 0 0-1 0v6.5a.5.5 0 0 0 .5.5z"/>
-            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-bar-graph" viewBox="0 0 16 16">
+  <path d="M4.5 12a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5zm3 0a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5zm3 0a.5.5 0 0 1-.5-.5v-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-.5.5z"/>
+  <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1"/>
+</svg>
             <h3 className="text-xl mt-6 sm:text-2xl lg:text-3xl font-semibold mb-2">High-Quality Resources</h3>
             <p className="text-sm sm:text-base lg:text-lg">Access top-notch study materials, tools, and resources.</p>
           </div>
@@ -134,9 +129,9 @@ const About = () => {
             style={cardStyle}
             className="card flex flex-col items-center text-left"
           >
-            <svg className="mb-6 text-white" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M2.5 0a.5.5 0 0 0-.5.5v6a.5.5 0 0 0 1 0V.5a.5.5 0 0 0-.5-.5zM5 16a.5.5 0 0 0 .5-.5V9a.5.5 0 0 0-1 0v6.5a.5.5 0 0 0 .5.5zM10.5 0a.5.5 0 0 0-.5.5v6a.5.5 0 0 0 1 0V.5a.5.5 0 0 0-.5-.5zM13 16a.5.5 0 0 0 .5-.5V9a.5.5 0 0 0-1 0v6.5a.5.5 0 0 0 .5.5z"/>
-            </svg>
+           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-pc-display-horizontal" viewBox="0 0 16 16">
+  <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5M12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0M1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25"/>
+</svg>
             <h3 className="text-xl mt-6 sm:text-2xl lg:text-3xl font-semibold mb-2">Extensive Project Work</h3>
             <p className="text-sm sm:text-base lg:text-lg">Work on real-world projects to build practical skills.</p>
           </div>
