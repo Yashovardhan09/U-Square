@@ -52,7 +52,7 @@ const FullStackCourses = () => {
 
   {/* Right Side: Module Details */}
   <div className="w-full lg:w-1/2 p-8">
-    <h1 className="text-4xl lg:text-5xl font-extrabold mb-4 text-gradient bg-clip-text text-transparent bg-gradient-to-r from-gray-400 via-gray-950 to-gray-900">
+    <h1 className="text-4xl lg:text-5xl font-extrabold mb-4 text-gradient bg-clip-text text-transparent bg-gradient-to-r from-gray-400 via-gray-950 to-gray-500">
       Module 1
     </h1>
     <h2 className="text-3xl lg:text-4xl font-semibold mb-2 text-white">
