@@ -193,12 +193,13 @@ const FullStackCourses = () => {
 <div className="flex flex-col lg:flex-row bg-black px-5 py-16">
   {/* Left Side: Trainer Image */}
   <div className="lg:w-1/2 p-8 flex justify-center items-center">
-    <img
-      src="https://media.licdn.com/dms/image/v2/D5603AQGTY5-YoxpRxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1690812112125?e=1729123200&v=beta&t=xLUrqvSj2XPeNumDEaP0QA371Zgt8wVQaNCdLirgv9I"
-      alt="Abhinay Gannavaram"
-      className="w-full h-auto rounded-lg shadow-2xl border-4 border-gray-950"
-    />
-  </div>
+  <img
+    src="https://media.licdn.com/dms/image/v2/D5603AQGTY5-YoxpRxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1690812112125?e=1729123200&v=beta&t=xLUrqvSj2XPeNumDEaP0QA371Zgt8wVQaNCdLirgv9I"
+    alt="Abhinay Gannavaram"
+    className="w-3/4 h-96 object-cover rounded-lg shadow-2xl border-4 border-gray-950"
+  />
+</div>
+
 
   {/* Right Side: Content */}
   <div className="lg:w-1/2 p-8">

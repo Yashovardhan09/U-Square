@@ -2,14 +2,14 @@ import React from 'react';
 
 const BlogDetail = () => {
   return (
-    <div className='bg-gray-950 min-h-screen py-32'>
+    <div className='bg-black min-h-screen py-32'>
       <div className='max-w-4xl mx-auto p-4 bg-white shadow-lg rounded-lg'>
-        <h1 className='text-3xl font-bold text-center text-green-950 mb-8'>
+        <h1 className='text-3xl font-bold text-center text-black mb-8'>
           Becoming a Full Stack Developer and Securing a Job in Hyderabad: A Step-by-Step Guide
         </h1>
         <div className='flex items-center text-gray-600 text-sm mb-4'>
-          <span className='material-icons mr-2  text-black font-extrabold'>Fri Jan 20, 2023</span> 
-          <span className='material-icons mx-4  text-black font-extrabold'>U-Square Academy</span> 
+          {/* <span className='material-icons mr-2  text-black font-extrabold'>Fri Jan 20, 2023</span>  */}
+          <span className='material-icons mx-1  text-black font-extrabold'>U Square Academy</span> 
         </div>
         <p className='text-green-900 leading-relaxed'>
           Becoming a full-stack developer and landing a job in Hyderabad can be a challenging but rewarding process. Here are some steps you can take to increase your chances of success:

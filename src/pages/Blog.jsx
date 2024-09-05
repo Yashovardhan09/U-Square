@@ -30,7 +30,7 @@ const Blog = () => {
       <div className='absolute inset-0 bg-black opacity-60'></div> {/* Overlay for better text readability */}
       <div className='relative max-w-4xl mx-auto p-6 bg-black shadow-lg rounded-lg z-10 flex flex-col space-y-8'>
         
-        <div className='mb-12'>
+        <div className='mb-12 '>
           <Link
             to='/blog/becoming-a-full-stack-developer-and-securing-a-job-in-bangalore-a-step-by-step-guide'
             className='text-3xl font-extrabold text-white hover:underline animate'
@@ -42,14 +42,14 @@ const Blog = () => {
             <span className='material-icons mx-4'>face</span> U-Square Academy */}
           </div>
           <p className='text-gray-300'>
-            Becoming a full-stack developer and landing a job in Bangalore can be a challenging but rewarding process. Here are some steps you can take to increase your chances of success...
+            Becoming a full-stack developer and landing a job in Hyderabad can be a challenging but rewarding process. Here are some steps you can take to increase your chances of success...
             {isReadMoreFullStack ? (
               <span>
                 <br />
                 Develop a strong understanding of both front-end and back-end technologies like React, Node.js, and databases. Build projects to showcase your skills and network with professionals in the industry. Keep up with the latest trends in full-stack development and prepare for technical interviews...
               </span>
             ) : (
-              <span>... <button onClick={toggleReadMoreFullStack} className='text-teal-400 hover:underline'>Read more</button></span>
+              <span>... <button onClick={toggleReadMoreFullStack} className='text-teal-400  hover:underline'>Read more</button></span>
             )}
           </p>
         </div>

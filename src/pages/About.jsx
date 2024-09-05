@@ -86,7 +86,7 @@ const About = () => {
 
       {/* Cards Section */}
       <div className="cards-section bg-black px-5 py-16">
-  <div className="container mx-auto max-w-4xl grid grid-cols-2 gap-8 justify-items-center">
+  <div className="container mx-auto max-w-4xl grid grid-col-1 lg:grid-cols-2 gap-8 justify-items-center">
     {/* Card 1 */}
     <div
       style={cardStyle}
