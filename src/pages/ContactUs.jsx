@@ -4,7 +4,7 @@ const ContactUs = () => {
   return (
     <div className="min-h-screen bg-black flex flex-col justify-center items-center px-5 py-16 mt-10"> {/* Full-height black background */}
       <div className="w-full max-w-lg bg-black border border-gray-600 p-8 rounded-3xl shadow-lg">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-center mb-2 text-green-400">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-center mb-2 text-white">
           Contact Us
         </h2>
         <p className="text-lg text-center mb-8 text-gray-300">

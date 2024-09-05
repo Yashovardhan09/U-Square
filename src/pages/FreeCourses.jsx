@@ -27,7 +27,7 @@ const FreeCourses = () => {
     <div
       className='bg-black min-h-screen py-16 relative'
       style={{
-        backgroundImage: `url(${bloggImage})`,
+        // backgroundImage: `url(${bloggImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',

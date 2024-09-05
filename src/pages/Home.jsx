@@ -25,9 +25,9 @@ const Home = () => {
             Gain in-demand tech skills like Data Cloud, Marketing Cloud, JavaScript, React, and Node.js, and create a robust portfolio to impress employers.
           </p>
           <Link to="/full-stack-course">
-            <button className="bg-black text-white px-6 sm:px-8 py-3 sm:py-4 rounded-md text-lg font-medium transition-all duration-300 backdrop-blur-md bg-opacity-30 hover:bg-opacity-50 border border-opacity-50 hover:text-blue-600 dark:bg-gray-800 dark:hover:bg-gray-700">
-              View Course
-            </button>
+          <button className="bg-[#f0f4f6] text-black px-6 sm:px-8 py-3 sm:py-4 rounded-full text-lg font-bold transition-all duration-300 hover:bg-opacity-90 hover:shadow-xl shadow-md transform hover:-translate-y-1">
+  View Course
+</button>
           </Link>
         </div>
       </div>

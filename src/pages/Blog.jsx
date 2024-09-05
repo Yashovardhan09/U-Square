@@ -24,8 +24,8 @@ const Blog = () => {
 
   return (
     <div
-      className='relative bg-cover bg-center min-h-screen pt-20 flex justify-center'
-      style={{ backgroundImage: `url(${bloggImage})` }}
+      className='relative bg-cover bg-black bg-center min-h-screen pt-20 flex justify-center'
+      // style={{ backgroundImage: `url(${bloggImage})` }}
     >
       <div className='absolute inset-0 bg-black opacity-60'></div> {/* Overlay for better text readability */}
       <div className='relative max-w-4xl mx-auto p-6 bg-black shadow-lg rounded-lg z-10 flex flex-col space-y-8'>

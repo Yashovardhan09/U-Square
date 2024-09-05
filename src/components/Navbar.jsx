@@ -85,7 +85,7 @@ const Navbar = () => {
               </button>
               {isDropdownOpen && (
                 <div 
-                  className="absolute left-0 mt-2 py-2 w-48 bg-gray-800 rounded-md shadow-xl z-50"
+                  className="absolute left-0 mt-2 py-2 w-48 bg-black rounded-md shadow-xl z-50"
                 >
                   <Link to="/salesforce" className="block px-4 py-2 text-sm text-white hover:bg-green-900" onClick={closeMobileMenu}>
                     Salesforce
@@ -99,7 +99,7 @@ const Navbar = () => {
           </div>
         </div>
         {/* Mobile Menu */}
-        <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-gray-800 p-4`}>
+        <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-black p-4`}>
           <div className="flex flex-col space-y-2">
             <Link to="/free-courses" className="block text-center  hover:text-green-900" onClick={closeMobileMenu}>
               Free Courses

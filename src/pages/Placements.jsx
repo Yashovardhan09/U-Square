@@ -47,12 +47,12 @@ const Placements = () => {
         {placementsData.map((placement, index) => (
           <div
             key={index}
-            className={`bg-black text-white rounded-3xl shadow-md p-8 text-center transform animate__animated animate__fadeInUp ${index % 2 === 0 ? 'animate__delay-1s' : 'animate__delay-2s'} transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg border border-green-700`}
+            className={`bg-black text-white rounded-3xl shadow-md p-8 text-center transform animate__animated animate__fadeInUp ${index % 2 === 0 ? 'animate__delay-1s' : 'animate__delay-2s'} transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg border border-gray-700`}
           >
             <img
               src={placement.img}
               alt={placement.name}
-              className="w-32 h-32 mx-auto rounded-full mb-6 border-2 border-green-400"
+              className="w-32 h-32 mx-auto rounded-full mb-6 border-2 border-gray-400"
             />
             <h3
               className="text-4xl font-semibold mb-2 bg-gradient-to-r from-white to-gray-70 bg-clip-text text-transparent"
