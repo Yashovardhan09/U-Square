@@ -23,7 +23,7 @@ const Footer = () => {
             <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
               <FaLinkedinIn size={24} />
             </a>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-500">
+            <a href="https://www.youtube.com/@USquare_Academy" target="_blank" rel="noopener noreferrer" className="hover:text-red-500">
               <FaYoutube size={24} />
             </a>
           </div>

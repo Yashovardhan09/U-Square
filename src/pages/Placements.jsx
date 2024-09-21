@@ -4,39 +4,57 @@ import 'animate.css';
 const Placements = () => {
   const placementsData = [
     {
-      name: "John Doe",
+      name: "Soumya M",
       feedback: "Usquare Academy's Salesforce course was a game-changer for me. It helped me land a role at Salesforce!",
       company: "Salesforce",
       img: "https://artriva.com/media/k2/items/cache/c889234799e865bbe90cee71f6cd2e53_XL.jpg",
     },
     {
-      name: "Jane Smith",
+      name: "Susmitha Reddy",
       feedback: "The MERN Stack course at Usquare Academy gave me the skills I needed to excel in web development.",
-      company: "Web Solutions",
+      company: "Accenture",
       img: "https://img.lovepik.com/free-png/20211111/lovepik-a-competent-professional-woman-png-image_400850568_wh1200.png",
     },
     {
-      name: "Alex Johnson",
+      name: "Nikhil",
       feedback: "Thanks to Usquare Academy, I now work at Creative Labs with confidence in my development abilities.",
-      company: "Creative Labs",
+      company: "Photon",
       img: "https://via.placeholder.com/150",
     },
     {
-      name: "Emily Davis",
+      name: "B Kishan",
       feedback: "Usquare's practical approach to teaching made all the difference. I secured a position at FutureTech!",
-      company: "FutureTech",
+      company: "Kitabel",
       img: "https://via.placeholder.com/150",
     },
     {
-      name: "Michael Brown",
+      name: "Sashank",
       feedback: "The hands-on projects in the MERN Stack course prepared me perfectly for the job market.",
-      company: "Tech Innovators",
+      company: "CtrlS",
       img: "https://via.placeholder.com/150",
     },
     {
-      name: "Sarah Lee",
+      name: "Nikhil CHowdary",
       feedback: "Usquare Academy's Salesforce training was instrumental in my career switch into tech.",
-      company: "Marketing Pros",
+      company: "Vectone",
+      img: "https://via.placeholder.com/150",
+    },
+    {
+      name: "Venkatesh",
+      feedback: "Usquare Academy's Salesforce training was instrumental in my career switch into tech.",
+      company: "Salesforce",
+      img: "https://via.placeholder.com/150",
+    },
+    {
+      name: "Manisha",
+      feedback: "Usquare Academy's Salesforce training was instrumental in my career switch into tech.",
+      company: "Salesforce",
+      img: "https://via.placeholder.com/150",
+    },
+    {
+      name: "Meghana K",
+      feedback: "Usquare Academy's Salesforce training was instrumental in my career switch into tech.",
+      company: "Salesforce",
       img: "https://via.placeholder.com/150",
     },
   ];
@@ -59,7 +77,7 @@ const Placements = () => {
             >
               {placement.name}
             </h3>
-            <p className="text-white mb-4">{placement.feedback}</p>
+            {/* <p className="text-white mb-4">{placement.feedback}</p> */}
             <p className="text-gray-400 text-3xl">{placement.company}</p>
           </div>
         ))}

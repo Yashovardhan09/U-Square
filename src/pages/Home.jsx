@@ -109,9 +109,9 @@ const Home = () => {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { review: 'This course has been a game changer for me. The hands-on projects and expert instructors helped me land my first job as an Email Specialist.', name: 'Shakhya Yashovardhan, SFMC Engineer' },
-              { review: 'I appreciated the flexibility of online classes and the career support provided. It made the transition into tech much smoother.', name: 'Pushpa Latha, SFDC Engineer' },
-              { review: 'The course content was thorough and well-structured. I now feel confident in my full-stack development skills.', name: 'Yuvi, FullStack Developer' }
+              { review: 'This course has been a game changer for me. The hands-on projects and expert instructors helped me land my first job as an Email Specialist.', name: 'Manisha I, SFMC Engineer' },
+              { review: 'I appreciated the flexibility of online classes and the career support provided. It made the transition into tech much smoother.', name: 'Soumya M, Sales Cloud' },
+              { review: 'The course content was thorough and well-structured. I now feel confident in my full-stack development skills.', name: 'Monisha S, FullStack Developer' }
             ].map((student, index) => (
               <div 
                 key={index} 
