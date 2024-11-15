@@ -36,6 +36,10 @@ const CourseDetails = () => {
         <div className="w-full max-w-4xl shadow-slate-100 mx-auto space-y-12">
           {[
             {
+              title: "Technical Induction",
+              url: "https://www.youtube.com/embed/DrRx7IWRakc?si=_ZtcGW2CiKSz-wqe",
+            },
+            {
               title: "Salesforce Basics",
               url: "https://www.youtube.com/embed/j3qMSL-HWF8?si=k49NI2sfLzQqpCvj",
             },
