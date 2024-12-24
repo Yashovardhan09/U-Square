@@ -137,12 +137,12 @@ const Home = () => {
           </h2>
         </div>
         <p className="text-lg mb-2 text-white">
-          SMD Grandeur,Flat #201, HUDA <br/>
-          Neknampur, Hyderabad, 5000089
+          Block 4, 101, HIG CHITRAPURI COLONY <br/>
+          Hyderabad, 5000089
         </p>
-        {/* <p className="text-lg text-white">
+        <p className="text-lg text-white">
           Phone: 7305472052
-        </p> */}
+        </p>
         <p>
           <a href="mailto:contact@usquareacademy.com" className='text-gray-400 hover:text-green-500'>contact@usquareacademy.com</a>
         </p>

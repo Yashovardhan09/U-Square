@@ -193,16 +193,16 @@ const FullStackCourses = () => {
 <div className="flex flex-col lg:flex-row bg-black px-5 py-16">
   {/* Left Side: Trainer Image */}
   <div className="lg:w-1/2 p-8 flex justify-center items-center">
-  {/* <img
-    src="https://media.licdn.com/dms/image/v2/D5603AQGTY5-YoxpRxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1690812112125?e=1729123200&v=beta&t=xLUrqvSj2XPeNumDEaP0QA371Zgt8wVQaNCdLirgv9I"
+  <img
+    src="https://media.licdn.com/dms/image/v2/D5603AQGTY5-YoxpRxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1690812112125?e=1740614400&v=beta&t=ANWzZlaI4IGdnLykaknp5LU1X4BczqoAJNWhgjF6DN8"
     alt="Abhinay Gannavaram"
     className="w-3/4 h-96 object-cover rounded-lg shadow-2xl border-4 border-gray-950"
-  /> */}
+  />
 </div>
 
 
   {/* Right Side: Content */}
-  {/* <div className="lg:w-1/2 p-8">
+  <div className="lg:w-1/2 p-8">
     <h1 className="text-4xl lg:text-5xl font-extrabold mb-4 text-gradient  text-gradient bg-clip-text text-transparent bg-gradient-to-r from-gray-400 via-gray-500 to-gray-900">
       Meet Your Trainer
     </h1>
@@ -231,7 +231,7 @@ const FullStackCourses = () => {
     >
       Drop Me a Line
     </button>
-  </div> */}
+  </div>
 </div>
 
 <div className="px-5 py-16 bg-gradient-to-br bg-black">
